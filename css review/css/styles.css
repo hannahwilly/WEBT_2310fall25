@@ -1,0 +1,141 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+ }
+body {
+    background-color:#A66641;
+ }
+ img {
+    display:block;
+    width: 100%;
+    margin: 0 auto;
+
+ }
+ nav, 
+ header, 
+ section, 
+ footer {
+    background-color: #F2E8DC;
+ }
+/* Mobile Styles */
+#container {
+    margin: 10px;
+}
+p {
+    margin: 10px;
+    padding: 5px;
+}
+h1, h2, h3 
+{text-align: center;
+}
+header {
+    padding: 10px;
+  
+}
+nav {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+ nav ul {
+    list-style-type: none;
+ }
+ nav li{
+    display: block;
+ }
+ nav li a {
+ border-bottom: 4px solid #f7ba97; ;
+    display: block;
+    background-color: #7C2200;
+    margin: 10 px 0;
+    height: 40 px;
+    line-height: 40 px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.25em;
+ }
+ section {
+    margin: 10px 0;
+    padding: 10px;
+ }
+ #multi_col {
+    background-color: #F2E8DC;
+ }
+ .col {
+    margin: 10px 0;
+    padding: 10px;
+ }
+ lower_area{
+    background-color: #C95E32;
+    padding: 10px;
+ }
+ .column {
+    margin: 10px 0;
+    padding: 10px;  
+    border-bottom: 4px solid  #f7ba97;
+ }
+ .column img{
+    width: 75%;
+    margin: 0 auto;
+ }
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #F2E8DC;
+        margin-top: 10px;
+    }
+    /*Tablet Styles */
+@media (min-width: 768px) {
+    nav{
+        padding: 10px;
+    }
+    nav li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    nav li a {
+        width: 150px;
+        border-radius: 5px;
+
+}
+#multi_col {
+    display: flex;
+    justify-content: space-between;
+ }
+ .col {
+    width: 48%;
+ }
+ .col_text {
+    width: 50%;
+ }
+ lower_area {
+    display: flex;
+    justify-content: space-between;
+ }
+ .column img{
+    width: 48%;
+ }
+}
+    /* Desktop Styles */
+@media (min-width: 1024px) {
+    nav li a {
+        background-color: #7C2200;
+    }
+    nav li a:hover {
+        border-bottom: #f7ba97 4px solid;
+    }
+    #container {
+        margin: 0 auto;
+        width: 100%;
+    }
+    lower_area {
+        display: flex;
+        width: 75%;
+    }
+    .column img {
+        width: 75%;
+    }
+
+}
