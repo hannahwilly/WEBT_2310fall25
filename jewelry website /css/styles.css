@@ -1,0 +1,144 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+ }
+body {
+    background-color:#ffffff;
+ }
+  img {
+    width: 50%;
+    margin: 0 auto;
+
+ }
+ div {
+    padding: 10px;
+    margin: 10px 0;
+ }
+ container {
+    margin: 0 auto;
+    width: 100%;
+ }
+ #col2
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+ 
+ #div {
+    background-color: #F6D58E;
+    padding: 10px;
+    margin: 10px 0;
+ }
+ #container {
+    margin: 0 auto;
+    width: 100%;
+ }
+ #multi_col {
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ /* Mobile Styles */
+#container {
+    margin: 10px;
+}
+p {
+    margin: 10px;
+    padding: 5px;
+}
+
+header {
+    padding: 4;
+  
+}
+nav {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+ nav ul {
+    list-style-type: none;
+ }
+ nav li{
+    display: block;
+ }
+ nav li a {
+    display: block;
+    margin: 10px 0;
+    height: 40px;
+    line-height: 40px;
+    background-color: #F6D58E;
+    font-weight: bold;
+  
+    font-size: 1.25em;
+ }
+ section {
+    margin: 10px 0;
+    padding: 10px;
+ }
+#multi_col {
+    display: flex;
+    background-color: #F6D58E;
+ }
+ .col {
+    width: 60%;
+ }
+ .col_text {
+    width: 50%;
+ }
+ .column img{
+    width: 75%;
+    margin: 0 auto;
+ }
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #F2E1C2;
+        margin-top: 10px;
+    }
+       /*Tablet Styles */
+@media (min-width: 768px) {
+    nav{
+        padding: 10px;
+    }
+    nav li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    nav li a {
+        width: 150px;
+        border-radius: 5px;
+
+}
+#multi_col {
+    display: flex;
+    justify-content: space-between;
+ }
+ .col {
+    width: 48%;
+ }
+ .col_text {
+    width: 50%;
+ }
+ lower_area {
+    display: flex;
+    justify-content: space-between;
+ }
+ .column img{
+    width: 48%;
+ }
+}
+ /* Desktop Styles */
+@media (min-width: 1024px) {
+   
+   
+    #container {
+        margin: 0 auto;
+        width: 100%;
+    }
+   
+    .column img {
+        width: 75%;
+    }
+}
