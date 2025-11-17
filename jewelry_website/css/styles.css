@@ -111,10 +111,7 @@ nav {
         border-radius: 5px;
 
 }
-#multi_col {
-    display: flex;
-    justify-content: space-between;
- }
+
  .col {
     width: 48%;
  }
@@ -141,4 +138,8 @@ nav {
     .column img {
         width: 75%;
     }
+    #multi_col {
+    display: flex;
+    /* justify-content: space-between; */
+ }
 }
